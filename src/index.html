@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Quiz App</title>
+  </head>
+  <body
+    class="bg-purple-900 flex justify-center items-center min-h-screen font-[Arial] p-10 sm:p-0"
+  >
+    <div
+      class="bg-white p-3 min-w-[250px] rounded-2xl flex flex-col items-center sm:min-w-[400px] sm:p-5"
+    >
+      <h1 class="text-purple-700 font-bold text-2xl sm:text-3xl">Quiz App</h1>
+      <div id="questions-container" class="text-center mt-2 hidden">
+        <h2
+          id="question-text"
+          class="text-black font-bold text-sm sm:text-xl"
+        ></h2>
+        <ul id="choices-list" class="flex flex-col items-center"></ul>
+        <button
+          id="next-btn"
+          class="bg-purple-800 text-white p-2 mt-2 text-sm rounded-md hover:bg-purple-900 hidden"
+        >
+          Next Question
+        </button>
+      </div>
+
+      <div id="result-container" class="text-center mt-2 hidden">
+        <h2 class="text-xl">Your Score:</h2>
+        <p id="score" class="text-2xl font-bold"></p>
+        <button
+          id="restart-btn"
+          class="bg-purple-800 text-white p-2 mt-2 text-sm rounded-md hover:bg-purple-900 hidden"
+        >
+          Restart Quiz
+        </button>
+      </div>
+
+      <button
+        id="starter-btn"
+        class="bg-purple-800 text-white p-2 mt-2 text-sm rounded-md hover:bg-purple-900"
+      >
+        Start Quiz
+
+      </button>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
