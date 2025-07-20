@@ -7,7 +7,7 @@ A responsive, user-friendly quiz application built with **HTML**, **Tailwind CSS
 
 ## 🔗 Live Demo
 
-👉 [Quiz App Live Site](https://quiz-app-huzaifas-projects-827a906f.vercel.app/)
+👉 [Quiz App Live Site](https://quiz-app-sable-iota.vercel.app/)
 
 ---
 
